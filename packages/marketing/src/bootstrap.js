@@ -16,7 +16,6 @@ const mount = (el, { onNavigate, defaultHistory, initialPath }) => {
 
     return {
         onParentNavigate(location) {
-            console.log('Container just navigated');
             const { pathname } = history.location;
             const nextPathname = location.pathname;
 
